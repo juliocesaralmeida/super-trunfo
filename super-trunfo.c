@@ -140,8 +140,10 @@ int main (){
     
     if (populacao1 > populacao2){
         printf("Carta 1 venceu! \n");
-    }else {
+    }else  if (populacao1 < populacao2) {
         printf("Carta 2 venceu! \n");
+    } else {
+        printf("houve um empate!");
     }
 
 }
